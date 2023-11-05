@@ -1,0 +1,332 @@
+body {
+    background-color: #fafafa;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    margin: 0%;
+}
+
+header {
+    background-color: darkseagreen;
+}
+
+.ul {
+    list-style-type: none;
+    padding-left: 10px;
+    margin-block: 0;
+}
+
+/*Nav bar*/
+.navbar {
+    background-color: darkseagreen;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+.navbar-item {
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 0 10px 0 20px;
+    list-style-type: none;
+    font-style: bold;
+}
+
+.brand {
+    text-transform: uppercase;
+    margin-right: auto;
+}
+
+.brand-firstletter {
+    text-transform: uppercase;
+    background-color: rgb(18, 224, 193);
+    padding: 10px;
+    width: 50px;
+    border-radius: 100%;
+}
+
+/* End of Navbar*/
+/*Header*/
+.banner {
+    background-image: url("https://img.freepik.com/free-photo/close-up-view-strawberries-macarons_141793-8156.jpg?w=1060&t=st=1696334160~exp=1696334760~hmac=a8d39786d5ebc285f459a4fd7827559fb4b9426d173d7cbfb5d61537a8151d91");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 150%;
+    height: 400px;
+
+}
+
+.banner-text {
+    color: #fafafa;
+    text-transform: uppercase;
+    letter-spacing: -1, 5px;
+    font-size: 36px;
+    background-position: absolute;
+    bottom: 100%;
+    right: 0%;
+    top: 50%;
+}
+
+/*End of heder*/
+
+/* Summary*/
+.summary {
+    background-color: #264245;
+    color: #fafafa;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: wavy;
+    padding: 50px 150px;
+}
+
+/* End of summary*/
+
+.summary-text {
+    text-align: center;
+}
+
+.card-background-dark {
+    background-color: darkseagreen;
+}
+
+/*Cards*/
+.cards-section {
+    background-color: darkseagreen;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-shadow: #264245;
+    box-shadow: 7px 10px 39px 0 black;
+}
+
+.card {
+    height: 500px;
+    width: 500px;
+    font-style: oblique;
+    color: #fafafa;
+    border-radius: 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.card-header {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1, 5px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.card-pricing-image1 {
+    background-image: url("https://img.freepik.com/free-photo/assortment-pieces-cake_114579-28258.jpg?w=360&t=st=1697446776~exp=1697447376~hmac=acbc3b6d0517a631ed28bb43fb1aafe097ee02ab4d19aa9cf3173ddf63cbbdc2");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 250px;
+    border: 10px;
+}
+
+.card-pricing-image2 {
+    background-image: url("https://img.freepik.com/premium-photo/colorful-small-square-cake_772702-4515.jpg?w=360");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 250px;
+}
+
+.card-pricing-image3 {
+    background-image: url("https://img.freepik.com/free-photo/top-view-table-full-sweet-delicious-desserts-cupcakes-donuts-panna-cotta-desserts_8353-11504.jpg?w=996&t=st=1697447331~exp=1697447931~hmac=80c68f7d21957364cdcd191fbf67bee9d76bac0e51432a1b03a995c6015b0468");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 250px;
+    border: 20px
+}
+
+.card-body {
+    color: #fafafa;
+    font-size: x-large;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.card-footer {
+    text-align: center;
+    color: #fafafa;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+/*End of cards*/
+/*Footer*/
+.footer-background {
+    background-color: darkseagreen;
+}
+
+.footer {
+    color: black;
+}
+
+.footer-section {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-brand {
+    font-size: 50px bold;
+    font-style: italic;
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    padding-left: 100px ;
+}
+.list-style{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.footer-title {
+    font-size: 50px bold;
+    display: flex;
+    justify-content: justify;
+    padding-bottom: 20px;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 2;
+}
+
+.footer-menu-list>* {
+    margin-bottom: 15px;
+    text-decoration-style: none;
+}
+
+.table {
+    border-left: 1px solid black;
+}
+
+.footer-menu-list>*:hover {
+    background-color: #fafafa;
+    text-decoration-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.footer-menu-link {
+    display: flex;
+    border: 0 solid #fafafa;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.font-smaller {
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* End of Footer */
+
+/*End of footer*/
+/*Overview*/
+.overview-container {
+    display: flex;
+    gap: 200px;
+    padding: 20px;
+}
+
+.image {
+    border-radius: 5px;
+    box-shadow: 4px 6px 39px -7px #264245;
+    display: flex;
+    align-items: baseline;
+}
+
+.overview-text {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+/*End of overview*/
+/*Articles*/
+.image1 {
+    display: flex;
+    flex-direction: row-reverse;
+    box-shadow: #264245;
+    box-shadow: 7px 10px 39px 0 black;
+}
+
+.article-container {
+    display: flex;
+    padding: 20px;
+}
+
+.article-title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration-style: 5px;
+}
+
+.article-title:nth-child(n+1) {
+    flex-direction: column-reverse;
+}
+
+.article-heading {
+    order: 1;
+    text-align: left;
+    font-size: 30px;
+}
+
+.article-description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px 50px 0 50px;
+    font-size: 20px;
+}
+
+.article-story {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px 50px 0 50px;
+    font-size: 20px;
+}
+
+/* End of Articles */
+/*Media queries*/
+@media (min-width: 1025px) {
+    main {
+        width: 1024px;
+        margin: auto;
+    }
+}
+
+/*End of Media queries*/
